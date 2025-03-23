@@ -1,0 +1,59 @@
+@use 'variables' as *;
+
+%classify-banner {
+    position: fixed;
+    left: 0;
+    z-index: 998;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    display: table;
+}
+
+%classify-text {
+    margin: 0%;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2em;
+    font-weight: bolder;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.classify-text {
+    color: white;
+}
+
+.classify-text-black {
+    color: black;
+}
+
+.classify-undefined {
+    background-color: white
+}
+
+.classify-top {
+    @extend %classify-banner;
+    top: 0;
+
+    p {
+        @extend %classify-text;
+        height: 100%;
+    }
+}
+
+.classify-bottom {
+    @extend %classify-banner;
+    bottom: 0;
+
+    p {
+        @extend %classify-text;
+        height: 100%;
+    }
+}
+
+@each $classification, $color in $classifications {
+    .classify-#{$classification} {
+        background-color: $color;
+    }
+}
