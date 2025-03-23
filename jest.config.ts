@@ -1,11 +1,14 @@
-import type {Config} from 'jest';
+import type { Config } from 'jest';
 
 const config: Config = {
   verbose: true,
-  transform : {
+  transform: {
     '^.+\\.tsx?$': 'ts-jest',
   },
-  testEnvironment: 'jsdom'
+  testEnvironment: 'jsdom',
+  moduleNameMapper: {
+    '\\.(css|less|scss|sass)$': 'identity-obj-proxy',
+  },
 };
 
 export default config;
