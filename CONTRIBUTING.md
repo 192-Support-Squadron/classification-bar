@@ -17,7 +17,7 @@ The project maintainer for this Project will only accept contributions using the
 
 ### 2. Developer Certificate of Origin Process
 
-Before submitting contributing code to this repository for the first time, you'll need to sign a Developer Certificate of Origin (DCO) (see below). To agree to the DCO, add your name and email address to the [CONTRIBUTORS.md](https://github.com/192-Support-Squadron/dod-warning/blob/master/CONTRIBUTORS.md) file. At a high level, adding your information to this file tells us that you have the right to submit the work you're contributing and indicates that you consent to our treating the contribution in a way consistent with the license associated with this software (as described in [LICENSE.md](https://github.com/192-Support-Squadron/dod-warning/blob/master/LICENSE.md)) and its documentation ("Project").
+Before submitting contributing code to this repository for the first time, you'll need to sign a Developer Certificate of Origin (DCO) (see below). To agree to the DCO, add your name and email address to the [CONTRIBUTORS.md](https://github.com/192-Support-Squadron/classification-bar/blob/master/CONTRIBUTORS.md) file. At a high level, adding your information to this file tells us that you have the right to submit the work you're contributing and indicates that you consent to our treating the contribution in a way consistent with the license associated with this software (as described in [LICENSE.md](https://github.com/192-Support-Squadron/classification-bar/blob/master/LICENSE.md)) and its documentation ("Project").
 
 ### 3. Important Points
 
@@ -74,7 +74,7 @@ By making a contribution to this project, I certify that:
 
 ## Getting Started
 
-dod-warning is a React component used to provide the DoD USG Warning banner for websites.
+classification-bar is a React component used to provide the a Classification bar for websites.
 
 To set up your development environment for a React project, follow these steps:
 
@@ -102,7 +102,7 @@ npm install
 
 ## Submitting an Issue
 
-You should feel free to [submit an issue](https://github.com/192-Support-Squadron/dod-warning/issues) on our GitHub repository for anything you find that needs attention on the website. That includes content, functionality, design, or anything else!
+You should feel free to [submit an issue](https://github.com/192-Support-Squadron/classification-bar/issues) on our GitHub repository for anything you find that needs attention on the website. That includes content, functionality, design, or anything else!
 
 ### Submitting a Bug Report
 
@@ -115,7 +115,7 @@ When submitting a bug report on the website, please be sure to include accurate 
 
 ## Submitting Code
 
-When making your changes, it is highly encouraged that you use a [branch in Git](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging), then submit a [pull request](https://github.com/192-support-squadron/dod-warning/pulls) (PR) on GitHub. Your pull request will go through some automated checks using [Github Actions](https://github.com/features/actions), a continuous integration and deployment tool.
+When making your changes, it is highly encouraged that you use a [branch in Git](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging), then submit a [pull request](https://github.com/192-support-squadron/classification-bar/pulls) (PR) on GitHub. Your pull request will go through some automated checks using [Github Actions](https://github.com/features/actions), a continuous integration and deployment tool.
 
 After review by the 192 Support Squadron, your PR will either be commented on with a request for more information or changes, or it will be merged into the `dev` branch.
 

@@ -1,3 +1,3 @@
-# React Component Template
+# Classification Bar
 
-This repo is a template to be used for new React componenets libaries.
+This repo contains a React Component that provides a Classification Bar to be used on goverment websites.

@@ -9,7 +9,7 @@ export default defineConfig({
   build: {
     lib: {
       entry: resolve(__dirname, "./lib/index.ts"),
-      name: "react-component-template",
+      name: "classification-bar",
       fileName: (format) => `index.${format}.js`,
     },
     rollupOptions: {

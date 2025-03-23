@@ -1,6 +1,6 @@
 {
-  "name": "@192-cf/react-component-template",
-  "version": "1.0.1",
+  "name": "@192-cf/classification-bar",
+  "version": "1.0.0",
   "type": "module",
   "main": "dist/index.umd.js",
   "module": "dist/index.es.js",
@@ -55,10 +55,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/192-Support-Squadron/react-component-template.git"
+    "url": "https://github.com/192-Support-Squadron/classification-bar.git"
   },
-  "homepage": "https://github.com/192-Support-Squadron/react-component-template/blob/main/README.md",
+  "homepage": "https://github.com/192-Support-Squadron/classification-bar/blob/main/README.md",
   "bugs": {
-    "url": "https://github.com/192-Support-Squadron/react-component-template/issues"
+    "url": "https://github.com/192-Support-Squadron/classification-bar/issues"
   }
 }
