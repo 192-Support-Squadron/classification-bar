@@ -117,3 +117,19 @@ test("Return TOP SECRET and the appropriate classes for the top class bar", () =
         caveats: "TEST/TEST2",
     });
 });
+
+test("Return NOT CONFIGURED and the appropriate classes for the top class bar", () => {
+    const ClassificationData = ParseClassification({position: "top"});
+    expect(ClassificationData).toEqual({
+        classification: "NOT CONFIGURED",
+        classes: "classify-top classify-undefined classify-text-black",
+    });
+});
+
+test("Return NOT CONFIGURED and the appropriate classes for the bottom class bar", () => {
+    const ClassificationData = ParseClassification({position: "bottom"});
+    expect(ClassificationData).toEqual({
+        classification: "NOT CONFIGURED",
+        classes: "classify-bottom classify-undefined classify-text-black",
+    });
+});
