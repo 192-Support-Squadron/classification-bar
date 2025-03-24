@@ -4,17 +4,20 @@
 */
 export interface ClassificationData {
     classification: string;
-    caveats?: string;
     classes: string;
+    caveats?: string;
 }
 
 export interface ClassificationSettings {
-    level: string;
-    caveats?: string;
     position: string;
+    level?: string;
+    caveats?: string;
 }
 
 export function ParseClassification(props: ClassificationSettings): ClassificationData {
+    if(props.level == undefined){
+        props.level = "unconfigured"
+    }
     const color: string = `classify-${props.level.toLocaleLowerCase()}`;
 
     switch (props.level.toLocaleUpperCase()) {
